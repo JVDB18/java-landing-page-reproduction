@@ -1,9 +1,0 @@
-{
-    debug
-    auto_https off
-    http_port 8081
-}
-localhost:8081 {
-    root labo1
-    file_server
-}
