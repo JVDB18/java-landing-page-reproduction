@@ -1,0 +1,126 @@
+/**Variables**/
+html{
+    --medium-blue: #3A75AF;
+    --medium-yellow: #FFFFCD;
+    --dark-yellow: #EFE78B;
+    --dark-green: #188654;
+    --light-grey: #D9E5E9;
+}
+/*Queries*/
+/*Fonts*/
+@font-face {
+    font-family: "LiberationSans";
+    src: url(../assets/fonts/LiberationSans-Regular.ttf) format('truetype');
+}
+/*GLOBAL CSS*/
+body {
+    font-family: "LiberationSans";
+    margin: 0 0 0 0;
+}
+header {
+    background-color: var(--medium-blue);
+    color:whitesmoke;
+    height: 80px;
+    margin: 0;
+}
+
+a {  
+    text-decoration: none;
+    color: var(--medium-blue)
+}
+nav{
+    margin: 0;
+    width: 50%;
+}
+aside{
+    width: 20%;
+}
+main {
+    width: 50%;
+}
+
+/*Classes*/
+.flex_container{
+    display: flex;
+    justify-content: center;
+}
+.flex_row{ 
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: center;
+}
+.flex_column {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.flex-items{
+    padding: 5%;
+}
+.align-self { 
+    align-self: center;
+}
+.logo {
+    width: 100px;
+    margin: 1%;
+}
+.justify_between{
+    justify-content: space-around;
+}
+.header-nav-link{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.pannel_container {
+    background-color: var(--medium-yellow);
+    border: 3px solid var(--dark-yellow);
+    align-self: center;
+    margin-bottom: 2%;
+    padding: 2%;
+
+}
+.search-bar{
+    margin-left: auto;
+    margin-right: 1%;
+}
+.container_width{
+    width: 100%;
+    margin: auto;
+}
+.call_to_action_button {
+    background-color: var(--dark-green);
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: auto;
+    text-align: center;
+}
+.call_to_action_pannel {
+    background-color: var(--light-grey);
+    border-radius: 0.5em;
+    border: none;
+    padding: 2rem;
+    text-align: center;
+}
+.side_nav{
+    height: 100%;
+}
+.footer_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    width: 100%;
+
+}
+.int_img{
+    height: 24px;
+    margin-right: 20px;
+}
+.int_pannel {
+    align-items: center;
+    align-self: center;
+}
